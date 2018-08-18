@@ -3,6 +3,8 @@
   <persistence-unit name="PengolahanDataProduksiPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>pengolahandataproduksi.model.TblUsers</class>
+    <class>pengolahandataproduksi.model.TblProduksi</class>
+    <class>pengolahandataproduksi.model.Pegawai</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/dataproduksi?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
